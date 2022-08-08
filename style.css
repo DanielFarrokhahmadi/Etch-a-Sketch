@@ -15,11 +15,11 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #758C95;
 }
 
 header {
     flex: 0 1 20%;
-    background-color: #758C95;
 }
 
 h1 {
@@ -44,15 +44,14 @@ button {
 .container {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    min-height: 80%;
+    padding-top: 2%;
+    flex: 0 1 80%;
 }
 
-.grid {
-    border: solid #1F2937;
-}
+
 
 .bordersShown {
-    border: solid lightskyblue;
+    border: solid lightgray;
 }
